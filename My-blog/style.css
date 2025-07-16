@@ -48,11 +48,10 @@ body {
     margin-left: -1rem;
 }
 
-.whitebox .x-div {
-    font-size: 160%;
+.whitebox [x]{
+    font-size: 120%;
     font-weight: 300;
-    opacity: 0.4;
-    padding: 0px 30px;
+    padding: 0px 35px;
 }
 
 /*whitebox*/
@@ -138,7 +137,7 @@ li a:hover {
 }
 
 .client-text h3 {
-    opacity: 0.4;
+    filter: opacity(40%);
     font-weight: 300;
 }
 
@@ -164,7 +163,7 @@ li a:hover {
 /*container1*/
 .container1 {
     width: 100%;
-    min-height: 40%;
+    height:320px;
     background-color: #f0f3fe;
     /* yoki boshqa fon rangi */
     padding: 0;

@@ -1,0 +1,1007 @@
+/* Global fix */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* pastda scroll chiqmasligi uchun */
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*Whitebox*/
+.whitebox {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: -7px;
+    height: 70px;
+    background-color: #f1f0f0;
+    position: fixed;
+    z-index: 2;
+}
+
+.whitebox span {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 45%;
+    margin-left: 1440px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.whitebox .span1 {
+    margin-left: 1px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.whitebox img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+/* /Whitebox*/
+
+/*Logo*/
+
+.logo img {
+    width: 62px;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+/* /Logo*/
+
+/*Navbar*/
+
+.navbar {
+    margin-left: 900px;
+    margin-top: -45px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease-out;
+}
+
+nav a:hover {
+    color: #7790ef;
+}
+
+.navbar nav [about] {
+    color: #7790ef;
+}
+
+/* /Navbar*/
+
+/*Introduce*/
+
+.introduce {
+    width: 600px;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.introduce h1 {
+    font-size: 100px;
+    font-family: Alata, sans-serif;
+    font-weight: 500;
+}
+
+.introduce h2 {
+    font-size: 35px;
+    margin-top: -65px;
+    color: #7790ef;
+}
+
+.introduce button {
+    width: 250px;
+    height: 70px;
+    background-color: #7790ef;
+    border: none;
+    border-radius: 35px;
+    font-size: medium;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.introduce button:hover {
+    cursor: pointer;
+    background-color: #778fef77;
+}
+
+.introduce [facebook] {
+    width: 37px;
+    margin-top: 120px;
+    margin-left: -250px;
+    position: absolute;
+}
+
+.introduce [twitter] {
+    width: 37px;
+    margin-top: 118px;
+    margin-left: -140px;
+    border-radius: 30%;
+    position: absolute;
+}
+
+.introduce [instagram] {
+    width: 37px;
+    margin-top: 118px;
+    margin-left: -195px;
+    border-radius: 30%;
+    position: absolute;
+}
+
+.introduce p {
+    margin-top: 140px;
+}
+
+.introduce p a {
+    color: black;
+}
+
+/* /Introduce*/
+
+/*Introduce__image*/
+
+.introduce__image {
+    width: 600px;
+    height: 500px;
+    margin-top: -600px;
+    margin-left: 810px;
+}
+
+.introduce__image img {
+    background-size: contain;
+    width: 450px;
+    border-radius: 19%;
+}
+
+/* /Introduce__image*/
+
+/*Skills*/
+
+.skills {
+    width: 1100px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 280px;
+}
+
+.skills h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.gridbox {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+}
+
+.skills .gridbox div {
+    width: 100%;
+    height: 260px;
+    background-color: #7190f0;
+    border-radius: 25px;
+}
+
+/*Figma*/
+
+.skills .gridbox .figma {
+    transition: all 0.1s ease-in-out;
+    opacity: 95%;
+}
+
+.skills .gridbox .figma img {
+    width: 50px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.skills .gridbox .figma h2 {
+    width: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+.skills .gridbox .figma p {
+    width: 265px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.skills .gridbox .figma:hover img {
+    position: relative;
+    top: -10px;
+}
+
+/* /Figma */
+
+/*WordPress*/
+
+.skills .gridbox .WordPress {
+    opacity: 95%;
+    transition: all 0.1s ease-in-out;
+}
+
+.skills .gridbox .WordPress img {
+    width: 50px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.skills .gridbox .WordPress h2 {
+    width: 20px;
+    margin-left: 75px;
+    margin-top: 20px;
+    color: white;
+}
+
+.skills .gridbox .WordPress p {
+    width: 265px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.skills .gridbox .WordPress:hover img {
+    position: relative;
+    top: -10px;
+}
+
+/* /WordPress*/
+
+/*React*/
+
+.skills .gridbox .React {
+    transition: all 0.1s ease-in-out;
+    opacity: 95%;
+}
+
+.skills .gridbox .React img {
+    width: 50px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.skills .gridbox .React h2 {
+    width: 20px;
+    margin-left: 88px;
+    margin-top: 20px;
+    color: white;
+}
+
+.skills .gridbox .React p {
+    width: 265px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.skills .gridbox .React:hover img {
+    position: relative;
+    top: -10px;
+}
+
+/* /React*/
+
+/*HTML */
+
+.skills .gridbox .html {
+    opacity: 95%;
+    transition: all 0.1s ease-in-out;
+}
+
+.skills .gridbox .html img {
+    width: 50px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+
+.skills .gridbox .html h2 {
+    width: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+.skills .gridbox .html p {
+    width: 265px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.skills .gridbox .html:hover img {
+    position: relative;
+    top: -10px;
+}
+
+/*/HTML*/
+
+/* /Skills*/
+
+/*experience*/
+.experience {
+    width: 101%;
+    height: 1240px;
+    background-color: #f0f3fe;
+    margin-top: -190px;
+    margin-left: -7px;
+}
+
+.experience h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+    position: relative;
+    top: 250px;
+}
+
+.experience hr {
+    width: 800px;
+    border: 1px solid #a0b7ffc9;
+    position: relative;
+    top: 280px;
+}
+
+/* /experience*/
+
+/*Work experience*/
+
+/*web developer*/
+.work__experience .web__developer {
+    width: 1100px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 340px;
+}
+
+.work__experience .web__developer h2 {
+    font-size: 25px;
+}
+
+.work__experience .web__developer .p1 {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.work__experience .web__developer h3 {
+    margin-left: 350px;
+    margin-top: -85px;
+}
+
+.work__experience .web__developer .p2 {
+    margin-left: 350px;
+    line-height: 35px;
+    font-size: large;
+}
+
+.work__experience .web__developer .p3 {
+    margin-left: 350px;
+}
+
+.work__experience .web__developer .p3 a {
+    font-size: large;
+    color: #577ff6;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 4px;
+    position: absolute;
+}
+
+/* /web developer*/
+
+/*Front-end Development*/
+.front_end_development {
+    width: 1120px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.front_end_development h2 {
+    font-size: 25px;
+}
+
+.front_end_development .p1 {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.front_end_development h3 {
+    margin-left: 350px;
+    margin-top: -85px;
+}
+
+.front_end_development .p2 {
+    margin-left: 350px;
+    line-height: 35px;
+    font-size: large;
+}
+
+.front_end_development .p3 {
+    margin-left: 350px;
+}
+
+.front_end_development .p3 a {
+    font-size: large;
+    color: #577ff6;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 4px;
+    position: absolute;
+}
+
+/* /Front-end Development*/
+
+/*Web Designer*/
+.web__designer {
+    width: 1100px;
+    height: 200px;
+
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.web__designer h2 {
+    font-size: 25px;
+}
+
+.web__designer .p1 {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.web__designer h3 {
+    margin-left: 350px;
+    margin-top: -85px;
+}
+
+.web__designer .p2 {
+    margin-left: 350px;
+    line-height: 35px;
+    font-size: large;
+}
+
+.web__designer .p3 {
+    margin-left: 350px;
+}
+
+.web__designer .p3 a {
+    font-size: large;
+    color: #577ff6;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 4px;
+    position: absolute;
+}
+
+/* /Web Designer*/
+
+.experience__years {
+    width: 100%;
+    height: 575px;
+    margin-left: -7px;
+}
+
+/*box1*/
+
+.box1 {
+    width: 1100px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 110px;
+    line-height: 25px;
+}
+
+.box1 h1 {
+    font-size: 42px;
+}
+
+.box1 p {
+    width: 520px;
+    line-height: 33px;
+    font-size: large;
+}
+
+.box1 .counts {
+    margin-left: 600px;
+    margin-top: -300px;
+    width: 200px;
+    height: 130px;
+}
+
+.box1 .counts h1 {
+    font-size: 60px;
+    color: #7190f0;
+}
+
+.box1 .counts2 {
+    margin-left: 900px;
+    margin-top: -170px;
+    width: 200px;
+    height: 130px;
+}
+
+.box1 .counts2 h1 {
+    font-size: 60px;
+    color: #7190f0;
+}
+
+.box1 .counts3 {
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 200px;
+    height: 130px;
+}
+
+.box1 .counts3 h1 {
+    font-size: 60px;
+    color: #7190f0;
+}
+
+.box1 .counts4 {
+    margin-left: 900px;
+    margin-top: -170px;
+    width: 200px;
+    height: 130px;
+}
+
+.box1 .counts4 h1 {
+    font-size: 60px;
+    color: #7190f0;
+}
+
+/* /box1*/
+
+.box1 button {
+    width: 250px;
+    height: 70px;
+    background-color: #7790ef;
+    border: none;
+    border-radius: 35px;
+    font-size: medium;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+.box1 button:hover {
+    cursor: pointer;
+    background-color: #778fef77;
+}
+
+/*education*/
+.education {
+    width: 101%;
+    height: 2240px;
+    background-color: #f0f3fe;
+    margin-top: -190px;
+    margin-left: -7px;
+}
+
+.education h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+    position: relative;
+    top: 250px;
+}
+
+.education hr {
+    width: 800px;
+    border: 1px solid #a0b7ffc9;
+    position: relative;
+    top: 280px;
+}
+
+/* /education*/
+
+/*Education*/
+
+/*my_education*/
+.my_education .web__developer {
+    position: absolute;
+    width: 1100px;
+    height: 230px;
+    margin-left: 200px;
+    margin-top: 340px;
+}
+
+.my_education .web__developer h2 {
+    font-size: 25px;
+}
+
+.my_education .web__developer .p1 {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.my_education .web__developer h3 {
+    margin-left: 350px;
+    margin-top: -85px;
+}
+
+.my_education .web__developer .p2 {
+    margin-left: 350px;
+    line-height: 35px;
+    font-size: large;
+}
+
+.my_education .web__developer .p3 {
+    margin-left: 350px;
+}
+
+.my_education .web__developer .p3 a {
+    font-size: large;
+    color: #577ff6;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 4px;
+    position: absolute;
+}
+
+/* /my_education*/
+
+/*Front-end Development*/
+.school {
+    position: absolute;
+    width: 1120px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 630px;
+}
+
+.school h2 {
+    font-size: 25px;
+}
+
+.school .p1 {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.school h3 {
+    margin-left: 350px;
+    margin-top: -85px;
+}
+
+.school .p2 {
+    margin-left: 350px;
+    line-height: 35px;
+    font-size: large;
+}
+
+.school .p3 {
+    margin-left: 350px;
+}
+
+.school .p3 a {
+    font-size: large;
+    color: #577ff6;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 4px;
+    position: absolute;
+}
+
+/* /school*/
+
+/*school3*/
+.school3 {
+    width: 1100px;
+    height: 200px;
+
+    margin-left: 200px;
+    margin-top: 880px;
+    position: absolute;
+}
+
+.school3 h2 {
+    font-size: 25px;
+}
+
+.school3 .p1 {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.school3 h3 {
+    margin-left: 350px;
+    margin-top: -85px;
+}
+
+.school3 .p2 {
+    margin-left: 350px;
+    line-height: 35px;
+    font-size: large;
+}
+
+.school3 .p3 {
+    margin-left: 350px;
+}
+
+.school3 .p3 a {
+    font-size: large;
+    color: #577ff6;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 4px;
+    position: absolute;
+}
+
+/* /school3*/
+
+/* /Education*/
+
+/*project*/
+.education .project {
+    width: 550px;
+    height: 700px;
+    background-color: white;
+    margin-top: 1380px;
+    margin-left: 200px;
+    position: absolute;
+    border-radius: 18px;
+}
+
+.education .project h3 {
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.education .project p {
+    font-size: 45px;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-top: -1px;
+}
+
+.education .project .freepik {
+    font-size: large;
+    margin-top: -18px;
+}
+
+.education .project .freepik a {
+    color: black;
+}
+
+.education .project hr {
+    width: 430px;
+    margin-left: 25px;
+    margin-top: -250px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.education .project [phone__logo] {
+    background-color: #7190f0;
+    border-radius: 50%;
+    width: 42px;
+    margin-top: 310px;
+    margin-left: 25px;
+}
+
+.education .project [phone_number] {
+    font-size: 17px;
+    margin-left: 88px;
+    margin-top: -35px;
+}
+
+.education .project .tel__number {
+    font-size: x-large;
+    color: #577ff6;
+    margin-left: 88px;
+}
+
+.education .project .hr_2 {
+    margin-top: 175px;
+    position: absolute;
+}
+
+.education .project [email__logo] {
+    background-color: #7190f0;
+    border-radius: 50%;
+    width: 42px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.education .project [email] {
+    font-size: 17px;
+    margin-left: 88px;
+    margin-top: -35px;
+}
+
+.education .project .email {
+    font-size: x-large;
+    color: #577ff6;
+    margin-left: 88px;
+}
+
+/* /project*/
+
+/*project__image*/
+.education .project__image {
+    width: 550px;
+    height: 700px;
+    margin-top: 1375px;
+    margin-left: 780px;
+    position: absolute;
+    border-radius: 18px;
+}
+
+.education .project__image img {
+    width: 560px;
+    height: 710px;
+    background-size: contain;
+    border-radius: 18px;
+}
+
+/*/project__image*/
+
+/*get-in_touch*/
+
+.get_in_touch {
+    line-height: 40px;
+    width: 100%;
+    height: 600px;
+}
+
+.get_in_touch h1 {
+    margin-left: 200px;
+    font-size: 45px;
+}
+
+.get_in_touch #name {
+    margin-left: 200px;
+    width: 500px;
+    height: 40px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding: 10px;
+    font-size: medium;
+}
+
+.get_in_touch .name {
+    margin-left: 200px;
+}
+
+.get_in_touch #email {
+    margin-left: 200px;
+    width: 500px;
+    height: 40px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding: 10px;
+    font-size: medium;
+    margin-top: -20px;
+}
+
+.get_in_touch .email {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.get_in_touch button {
+    width: 520px;
+    margin-left: 200px;
+    height: 70px;
+    margin-top: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #7190f0;
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.get_in_touch button:hover {
+    background-color: black;
+}
+
+.get_in_touch .freepikk {
+    margin-left: 200px;
+    font-size: large;
+    margin-top: 25px;
+}
+
+.get_in_touch .freepikk a {
+    color: black;
+}
+
+.brat_image {
+    width: 350px;
+    height: 450px;
+    margin-left: 870px;
+    margin-top: -460px;
+    position: absolute;
+}
+
+/*get_in_touch*/
+
+/*bottom_contact*/
+.bottom_contact {
+    width: 100%;
+    height: 330px;
+    background-color: #f0f3fe;
+}
+
+.bottom_contact h1 {
+    margin-left: 200px;
+    font-size: 45px;
+    margin-top: 100px;
+    position: absolute;
+    color: #7190f0;
+}
+
+.bottom_contact .svg1 {
+    width: 14px;
+    margin-left: 200px;
+    margin-top: 230px;
+}
+
+.bottom_contact .svg2 {
+    width: 17px;
+    margin-left: 10px;
+}
+
+.bottom_contact .svg3 {
+    width: 19px;
+    margin-left: 10px;
+}
+
+.bottom_contact h2 {
+    margin-left: 1200px;
+    font-size: xx-large;
+    margin-top: -150px;
+    color: #7190f0;
+}
+
+.bottom_contact h3 {
+    font-size: 20px;
+    margin-left: 1170px;
+    color: #7190f0;
+}
+
+/* /bottom_contact*/
+
+/*blackbox*/
+.blackbox {
+    width: 100%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.803);
+}
+
+/* /blackbox*/

@@ -90,19 +90,24 @@ li a:hover {
     color: #7790ef;
 }
 
+/*Aside*/
+
 .aside {
     width: 100%;
     height: 240px;
     background-color: #f0f3fe;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
 }
 
 .aside h1 {
     font-size: 3rem;
     font-family: sans-serif;
+    margin-left: 2rem;
 }
+
+/*/aside*/
 
 /*Clients*/
 .clients {
@@ -122,75 +127,112 @@ li a:hover {
     /* elementlar orasida bo‘sh joy */
     margin-bottom: 100px;
 }
+
 .client-text {
     width: 50%;
     line-height: 30px;
-  }
-  .client-text p{
+}
+
+.client-text p {
     font-size: 1.22rem;
-  }
-  .client-text h3{
+}
+
+.client-text h3 {
     opacity: 0.4;
     font-weight: 300;
-  }
-  .client-text a{
+}
+
+.client-text a {
     letter-spacing: 2px;
     color: #7790ef;
-    text-underline-offset: 5px; /* chiziqni pastroqqa tushiradi */
-  }
-  .clients-img {
+    text-underline-offset: 5px;
+    /* chiziqni pastroqqa tushiradi */
+}
+
+.clients-img {
     width: 50%;
-  }
-  
-  .clients-img img {
+}
+
+.clients-img img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-  }
-  /*clients*/
+}
 
-  /*Footer*/
-  footer{
-    background-color: #F0F3FE;
+/*clients*/
+
+/*container1*/
+.container1 {
     width: 100%;
-    height: 300px;
+    min-height: 40%;
+    background-color: #f0f3fe;
+    /* yoki boshqa fon rangi */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    width: 100%;
+    height: 15rem;
+    background-color: #f0f3fe;
+    /* yoki boshqa fon rangi */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+/* /container1*/
+
+/*Footer*/
+footer {
+    background-color: #f0f3fe;
+    color: #7790ef;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .footer-content1 ul{
-    margin-left: 4.3rem;
-  }
-  footer ul li{
+}
+
+.footer-content1 ul {
+    margin-left: -2.7rem;
+}
+
+footer ul li {
     list-style: none;
     display: inline-block;
-    padding: 5px; 
-    color: #7790ef;
+    padding: 5px;
     font-size: 1.5rem;
     cursor: pointer;
-  }
-  .footer-content1 h1{
-    color: #7790ef;
-    margin-left: 7rem;
-    font-size: 3rem;
-  }
+}
 
-  .footer-content2{
+.footer-content1 h1 {
+    font-size: 3rem;
+}
+
+.footer-content2 {
     margin-right: 13px;
-  }
-  .footer-content2 h1{
-    color: #7790ef;
+}
+
+.footer-content2 h1 {
     font-size: 2.5rem;
-    margin-right: 10rem;
-  }
-  .footer-content2 h2{
-    color: #7790ef;
+}
+
+.footer-content2 h2 {
     font-size: 1.5rem;
-  }
-  /*/footer*/
-  /*blackbox*/
-  .blackbox{
+}
+
+/*/footer*/
+
+/*blackbox*/
+
+.blackbox {
     width: 100%;
-    height: 30px;
+    height: 2.5rem;
     background-color: #333333;
-  }
+}
+
+/* /blackbox*/

@@ -4,14 +4,17 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* pastda scroll chiqmasligi uchun */
     font-family: sans-serif;
 }
 
 body {
     font-family: sans-serif;
 }
-
+.container{
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+}
 /*Whitebox*/
 .whitebox {
     width: 100%;
@@ -49,22 +52,47 @@ body {
 /* /Whitebox*/
 
 /*Logo*/
-
+.logo{
+    transform: translateY(-100%);
+    opacity: 0;
+    animation: logo 1s cubic-bezier(0.68, -0.55, 0.27, 1.3) forwards;
+}
+@keyframes logo {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 .logo img {
     width: 62px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 180px;
 }
 
 /* /Logo*/
 
 /*Navbar*/
-
 .navbar {
     margin-left: 900px;
     margin-top: -45px;
+    transform: translateY(-100%);
+    opacity: 0;
+    animation: navbarSlideDown 1s cubic-bezier(0.68, -0.55, 0.27, 1.5) forwards;
 }
-
+@keyframes navbarSlideDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 .navbar nav a {
     text-decoration: none;
     margin-left: 30px;
@@ -154,7 +182,22 @@ nav a:hover {
 .introduce p a {
     color: black;
 }
-
+.introduce {
+    transform: translateX(-120%);
+    opacity: 0;
+    animation: slideInFromLeft 1.5s ease-out forwards;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 /* /Introduce*/
 
 /*Introduce__image*/
@@ -171,7 +214,22 @@ nav a:hover {
     width: 450px;
     border-radius: 19%;
 }
-
+.introduce__image {
+    transform: translateX(-120%);
+    opacity: 0;
+    animation: slideInFromRight 1.5s ease-out forwards;
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 /* /Introduce__image*/
 
 /*Skills*/
@@ -341,7 +399,47 @@ nav a:hover {
 }
 
 /*/HTML*/
-
+.skill {
+    opacity: 0;
+  }
+  
+  .figma,
+  .WordPress
+  {
+    transform: translateX(-120%);
+    animation: Left 1.5s ease-out forwards;
+    animation-delay: 3s;
+  }
+  
+  .React,
+  .html
+  {
+    transform: translateX(120%);
+    animation: Right 1.5s ease-out forwards;
+    animation-delay: 3s;
+  }
+  
+  @keyframes Left {
+    0% {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes Right {
+    0% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 /* /Skills*/
 
 /*experience*/

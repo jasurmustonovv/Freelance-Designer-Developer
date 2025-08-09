@@ -1192,3 +1192,48 @@ nav a:hover {
 }
 
 /* /blackbox*/
+
+
+.figma,
+.WordPress,
+.React,
+.html{
+    animation-delay: 2.3s;
+}
+.web__developer,
+.front_end_development,
+.web__designer
+{
+animation-delay: 5s;
+}
+.box1 .year25,
+.box1 .sample_text,
+.box1 button,
+.counts,
+.counts2,
+.counts3,
+.counts4
+{
+animation-delay:7s;
+}
+.univercity,
+.school,
+.school3
+{
+animation-delay:9s;
+}
+.project,
+.project__image
+{
+animation-delay:11s;
+}
+.get_in_touch_items,
+.brat_image
+{
+animation-delay:12.5s;
+}
+.bottom_contact_items,
+.bottom_contact_item
+{
+animation-delay:14s;
+}

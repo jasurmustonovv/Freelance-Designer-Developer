@@ -408,7 +408,7 @@ nav a:hover {
   {
     transform: translateX(-120%);
     animation: Left 1.5s ease-out forwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
   }
   
   .React,
@@ -416,7 +416,7 @@ nav a:hover {
   {
     transform: translateX(120%);
     animation: Right 1.5s ease-out forwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
   }
   
   @keyframes Left {
@@ -510,7 +510,22 @@ nav a:hover {
     padding-left: 4px;
     position: absolute;
 }
-
+.web__developer {
+    transform: translateX(-120%);
+    opacity: 0;
+    animation: slideInFromRight 1.5s ease-out forwards;
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 /* /web developer*/
 
 /*Front-end Development*/
@@ -553,7 +568,27 @@ nav a:hover {
     padding-left: 4px;
     position: absolute;
 }
-
+.front_end_development,
+.school,
+.project,
+.get_in_touch_items,
+.bottom_contact_items
+{
+    transform: translateX(-120%);
+    opacity: 0;
+    animation: Left 1.6s ease-out forwards;
+  }
+  
+  @keyframes Left {
+    0% {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 /* /Front-end Development*/
 
 /*Web Designer*/
@@ -597,7 +632,27 @@ nav a:hover {
     padding-left: 4px;
     position: absolute;
 }
-
+.web__designer,
+.school3,
+.project__image,
+.brat_image,
+.bottom_contact_item
+{
+    transform: translateX(-120%);
+    opacity: 0;
+    animation: Right 1.7s ease-out forwards;
+  }
+  
+  @keyframes Right {
+    0% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 /* /Web Designer*/
 
 .experience__years {
@@ -673,7 +728,41 @@ nav a:hover {
     font-size: 60px;
     color: #7190f0;
 }
-
+.box1 .year25,
+.box1 .sample_text,
+.box1 button{
+    transform: translateX(-120%);
+    opacity: 0;
+    animation: left 1.4s ease-out forwards;
+}
+@keyframes left {
+    0% {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .counts, 
+  .counts2,
+  .counts3,
+  .counts4{
+    transform: translateX(-120%);
+    opacity: 0;
+    animation: Right 1.2s ease-out forwards;
+  }
+  @keyframes Right {
+    0% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 /* /box1*/
 
 .box1 button {

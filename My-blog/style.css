@@ -7,8 +7,9 @@ body {
 }
 
 .container {
-    width: 1250px;
-    padding-left: 120px;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*Core styles*/
@@ -92,18 +93,18 @@ li a:hover {
 /*Aside*/
 
 .aside {
+    max-width: 1536px;
     width: 100%;
-    height: 240px;
+    height: 20rem;
     background-color: #f0f3fe;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
     align-items: center;
+    display: flex;
+    justify-content:center;
 }
 
 .aside h1 {
     font-size: 3rem;
-    font-family: sans-serif;
-    margin-left: 2rem;
 }
 
 /*/aside*/
@@ -164,13 +165,20 @@ li a:hover {
 
 /*Footer*/
 footer {
-    background-color: #f0f3fe;
     color: #7790ef;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
 }
-
+.footer_container{
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f0f3fe;
+}
 .footer-content1 ul {
     margin-left: -2.7rem;
 }

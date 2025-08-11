@@ -1,36 +1,42 @@
-/* Global fix */
 html,
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* pastda scroll chiqmasligi uchun */
     font-family: sans-serif;
 }
-
+.container{
+    max-width: 1536px;
+    width: 100%;
+    margin:0 auto;
+}
 /*Whitebox*/
 .whitebox {
+    max-width: 1536px;
     width: 100%;
-    padding: 0;
+    padding: 0 2rem;
     margin: 0;
-    margin-top: -7px;
     height: 70px;
     background-color: #f1f0f0;
     position: fixed;
-    z-index: 3;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.whitebox span {
+.whitebox div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whitebox span:last-child {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 45%;
-    margin-left: 1440px;
-    padding-top: 20px;
-    position: absolute;
+    padding-right:4rem;
 }
 
 .whitebox .span1 {
-    margin-left: 1px;
     font-weight: bold;
     opacity: 70%;
 }
@@ -38,8 +44,6 @@ body {
 .whitebox img {
     width: 40px;
     height: 40px;
-    margin-top: 15px;
-    margin-left: 5px;
 }
 
 /* /Whitebox*/
@@ -47,20 +51,21 @@ body {
 
 .logo img {
     width: 62px;
-    position: relative;
-    top: 100px;
-    margin-left: 180px;
 }
 
 /* /Logo*/
 
 /*Navbar*/
-
-.navbar {
-    margin-left: 900px;
-    margin-top: 55px;
+.navigation{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    transform: translateY(5rem);
 }
-
 .navbar nav a {
     text-decoration: none;
     margin-left: 30px;
@@ -82,10 +87,12 @@ nav a:hover {
 /*Introduce*/
 
 .introduce {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
+    margin:  0 auto;
     height: 500px;
     margin-left: 180px;
-    margin-top: 200px;
+    margin-top: 250px;
     position: relative;
 }
 
@@ -161,6 +168,8 @@ nav a:hover {
     height: 500px;
     margin-top: -600px;
     margin-left: 810px;
+    margin-bottom: 10rem;
+
 }
 
 .introduce__image img {
@@ -183,9 +192,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* vertikal markazga */
     align-items: center;
-    /* gorizontal markazga */
 }
 
 .years_experience h1 {
@@ -210,6 +217,8 @@ nav a:hover {
     background-color: #f0f3fe;
     z-index: 3;
     margin-top: 120px;
+    margin: 0 auto;
+    max-width: 1536px;
 }
 
 /*/ clients_number*/
@@ -405,11 +414,11 @@ nav a:hover {
 /*Skills*/
 
 .skills {
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
+    justify-content: center;
     height: 400px;
-    margin-left: 200px;
-    margin-top: -400px;
-    position: absolute;
+    margin:  0 auto;
 }
 
 .skills h1 {
@@ -419,9 +428,14 @@ nav a:hover {
 }
 
 .gridbox {
+    max-width: 1536px;
+    width: 100%;
+    display: flex;
     gap: 15px;
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .skills .gridbox div {
@@ -576,34 +590,43 @@ nav a:hover {
 /*customer*/
 .customer {
     width: 100%;
-    height: 1555px;
+    height: 122rem;
     background-color: #f0f3fe;
 }
 
 .customer .sign {
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 500px;
     font-size: 150px;
     color: #9ab0f5;
 }
 
 .customer_p {
-    width: 700px;
-    margin-left: 400px;
+    max-width: 1536px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     font-size: large;
     line-height: 28px;
     position: relative;
-    top: 120px;
+    margin-top: 550px;
 }
 
 .customer_h2 {
-    margin-top: 180px;
+    margin-top: 80px;
     text-align: center;
 }
 
 .customer i {
-    margin-left: 720px;
+    max-width: 1536px;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: large;
     text-transform: uppercase;
 }
@@ -834,21 +857,28 @@ nav a:hover {
 
 /*my_works*/
 .my_works {
+    max-width: 1536px;
+    margin:  0 auto;
     width: 100%;
-    height: 1200px;
+    height: 75rem;
 }
 
 .my_works h1 {
-    text-align: center;
+    max-width: 1536px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     font-size: 45px;
-    margin-top: 85px;
+    margin-top: 4rem;
 }
 
 .box2 {
+    justify-content: center;
+    align-items: center;
     display: grid;
+    margin: 0 auto;
     width: 1100px;
     height: 400px;
-    margin-left: 220px;
     gap: 25px;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
@@ -944,9 +974,12 @@ h2 {
 
 /* /.div6*/
 .my_works p {
-    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
     margin-top: 10px;
-    left: 470px;
+    width: 100%;
 }
 
 /* /my_works*/
@@ -961,18 +994,17 @@ h2 {
 .tricks h1 {
     text-align: center;
     font-size: 45px;
-    top: 70px;
+    top: 50px;
     position: relative;
+    margin-bottom: 7rem;
 }
 
 .box3 {
     display: grid;
     width: 950px;
     height: 1050px;
-    margin-left: 250px;
     gap: 15px;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 140px;
 }
 
 .box3 div {
@@ -1177,7 +1209,6 @@ h2 {
 }
 
 .get_in_touch .email {
-    position: absolute;
     margin-left: 200px;
     margin-top: 25px;
 }
@@ -1215,16 +1246,18 @@ h2 {
     height: 450px;
     margin-left: 870px;
     margin-top: -460px;
-    position: absolute;
+    position: relative;
 }
 
 /*get_in_touch*/
 
 /*bottom_contact*/
 .bottom_contact {
+    max-width: 1536px;
     width: 100%;
     height: 330px;
     background-color: #f0f3fe;
+    margin: 0 auto;
 }
 
 .bottom_contact h1 {
@@ -1265,7 +1298,6 @@ h2 {
 }
 
 /* /bottom_contact*/
-
 /*blackbox*/
 .blackbox {
     width: 100%;
@@ -1287,3 +1319,46 @@ h2 {
 }
 
 /* /blackbox*/
+
+.box3 {
+    max-width: 1536px;
+    margin: 0 auto;
+}
+/*get-in_touch*/
+.get_in_touch {
+    max-width: 1536px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.get_in_touch h1 {
+    margin-left: 1px;
+}
+
+.get_in_touch #name {
+    margin-left: 1px;
+    width: 500px;
+    height: 40px;
+
+}
+.get_in_touch .name {
+    margin-left: 1px;
+}
+.get_in_touch #email {
+    margin-left: 1px;
+}
+.get_in_touch .email {
+    position: relative;
+    margin-left: 1px;
+}
+.get_in_touch button {
+    margin-left: 1px;
+}
+.get_in_touch .freepikk {
+    margin-left: 1px;
+}
+.brat_image {
+    margin-left: 1px;
+    margin-top: -1px;
+}

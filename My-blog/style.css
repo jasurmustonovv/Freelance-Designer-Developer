@@ -70,13 +70,13 @@ nav {
 }
 
 /*Logo*/
-nav {
+.navbar{
     transform: translateY(-100%);
     opacity: 0;
-    animation: navbar 1s cubic-bezier(0.68, -0.55, 0.27, 1.5) forwards;
+    animation: navigation 1s cubic-bezier(0.68, -0.55, 0.27, 1.5) forwards;
 }
 
-@keyframes navbar {
+@keyframes navigation {
     0% {
         transform: translateY(-100%);
         opacity: 0;
